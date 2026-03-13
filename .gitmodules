@@ -1,0 +1,3 @@
+[submodule "orchestrator/teams/SNS"]
+	path = orchestrator/teams/SNS
+	url = git@github.com:hitoshi-kano-ui/hitonigiri--SNS.git
