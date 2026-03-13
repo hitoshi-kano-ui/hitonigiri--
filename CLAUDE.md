@@ -29,3 +29,11 @@ This file provides guidance to Claude Code (claude.ai/code) when working with co
 - コミットメッセージ形式: `<タイプ>: <概要>` (feat/fix/docs/refactor/test/chore)
 - コミットに `Co-Authored-By: Claude Opus 4.6 <noreply@anthropic.com>` を付与
 - Issue: バグ→bugラベル、機能要望→enhancementラベル、進捗管理→チェックリスト付きトラッキングIssue
+
+## Context
+
+すべてのエージェントは作業開始前に以下のファイルを参照すること。
+
+- `context/company.md` - 法人基本情報
+- `context/persona.md` - 発信思想・スタンス
+- `context/glossary.md` - 独自用語定義
