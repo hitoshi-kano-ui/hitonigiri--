@@ -8,6 +8,11 @@
 
 ### 実施内容
 
+- 軍師からの引き継ぎを受領・実行（組織再編）
+- リサーチチームを編成（CLAUDE.md、DEVLOG.md、reports/ディレクトリ構成）
+- 旧SNSチームを削除（サブモジュール解除）
+- コンテンツチーム・資料作成チームの箱を作成
+- 管轄チーム一覧・ルートCLAUDE.mdのArchitectureを更新
 - 代表より事業概要の共有を受領
 - `orchestrator/context/services.md` を作成（事業4本柱の整理）
 - `orchestrator/CLAUDE.md` にContext参照ルールを追記

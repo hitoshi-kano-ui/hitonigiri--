@@ -16,11 +16,13 @@ This file provides guidance to Claude Code (claude.ai/code) when working with co
 
 このリポジトリはモノレポ構成。サブディレクトリが独立したGitリポジトリを持つ場合がある。
 
-| ディレクトリ | 説明 | 独立リポジトリ |
-|-------------|------|---------------|
-| `orchestrator/` | エージェント統括（家老） | - |
-| `orchestrator/teams/SNS/` | SNS投稿管理 | `hitoshi-kano-ui/hitonigiri--SNS` |
-| `strategist/` | 戦略参謀（軍師） | - |
+| ディレクトリ | 説明 |
+|-------------|------|
+| `orchestrator/` | エージェント統括（家老） |
+| `orchestrator/teams/research/` | リサーチチーム |
+| `orchestrator/teams/content/` | コンテンツチーム（設計中） |
+| `orchestrator/teams/documents/` | 資料作成チーム（設計中） |
+| `strategist/` | 戦略参謀（軍師） |
 
 ## Documentation Rules
 
