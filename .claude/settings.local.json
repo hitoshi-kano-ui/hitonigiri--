@@ -1,0 +1,16 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(which gh && gh --version 2>/dev/null || echo \"gh not installed\")",
+      "Bash(export PATH=\"/opt/homebrew/bin:/usr/local/bin:$PATH\" && which brew && brew --version)",
+      "Bash(git init && git commit --allow-empty -m \"Initial commit\" && gh repo create hitonigiri-- --public --source=. --push)",
+      "Bash(git add README.md CLAUDE.md DEVLOG.md PROJECT_STANDARDS.md .gitignore && git commit -m \"$\\(cat <<'EOF'\ndocs: Add project standard documentation\n\n- README.md: プロジェクト概要\n- CLAUDE.md: AI CLI向け説明書\n- DEVLOG.md: 開発ログ\n- PROJECT_STANDARDS.md: プロジェクト標準ルール\n- .gitignore: 基本設定\n\nCo-Authored-By: Claude Opus 4.6 <noreply@anthropic.com>\nEOF\n\\)\" && git push)",
+      "WebFetch(domain:github.com)",
+      "Bash(curl -LsSf https://astral.sh/uv/install.sh | sh)",
+      "Bash(source $HOME/.local/bin/env && cd /Users/hitoshikano/.claude/mcp/e-gov-law-mcp && uv python install 3.12 && uv sync --python 3.12)",
+      "Bash(ls ~/.claude/*.json)",
+      "Read(//Users/hitoshikano/**)",
+      "Bash(source $HOME/.local/bin/env && which uv)"
+    ]
+  }
+}
