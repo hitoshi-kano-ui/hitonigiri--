@@ -18,7 +18,8 @@ This file provides guidance to Claude Code (claude.ai/code) when working with co
 
 | ディレクトリ | 説明 | 独立リポジトリ |
 |-------------|------|---------------|
-| `SNS/` | SNS投稿管理 | `hitoshi-kano-ui/hitonigiri--SNS` |
+| `orchestrator/` | エージェント統括（家老） | - |
+| `orchestrator/teams/SNS/` | SNS投稿管理 | `hitoshi-kano-ui/hitonigiri--SNS` |
 
 ## Documentation Rules
 
