@@ -19,6 +19,8 @@
 - SNS/を`orchestrator/teams/SNS/`に移動
 - `orchestrator/CLAUDE.md`を作成（家老の役割・行動原則を定義）
 - `strategist/CLAUDE.md`を作成（軍師の役割・行動原則を定義）
+- 各エージェントにDEVLOG.mdを追加（orchestrator, strategist）
+- 各CLAUDE.mdにDEVLOG記録ルールを追記
 
 ### 成果
 
