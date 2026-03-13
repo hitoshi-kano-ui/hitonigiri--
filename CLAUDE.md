@@ -20,6 +20,7 @@ This file provides guidance to Claude Code (claude.ai/code) when working with co
 |-------------|------|---------------|
 | `orchestrator/` | エージェント統括（家老） | - |
 | `orchestrator/teams/SNS/` | SNS投稿管理 | `hitoshi-kano-ui/hitonigiri--SNS` |
+| `strategist/` | 戦略参謀（軍師） | - |
 
 ## Documentation Rules
 
